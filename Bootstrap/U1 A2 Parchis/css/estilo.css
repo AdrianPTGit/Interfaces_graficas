@@ -1,24 +1,42 @@
 /***********************************FILA_1*********************/
 .rojo{
     background-color: red;
+    height: 20px;
 }
 
 .verde{
     background-color: green;
+    height: 20px;
 }
 
 .rojo_blanco_2{
     background-color: red;
+    height: 20px;
 }
 /***********************************FILA_2*********************/
+.azul_2{
+    background-color: aqua;
+    height: 46px;
+}
+.blanco{
+    height: 46px;
+}
+.amarillo_2{
+    background-color: yellow;
+    height: 46px;
+}
+/***********************************FILA_3*********************/
 
 .azul{
     background-color: aqua;
+    height: 20px;
 }
 .amarillo_blanco_2{
     background-color: yellow;
+    height: 20px;
 }
 
 .amarillo{
     background-color: yellow;
+    height: 20px;
 }
