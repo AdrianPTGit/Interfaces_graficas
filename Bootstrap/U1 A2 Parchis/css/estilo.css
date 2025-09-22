@@ -1,3 +1,4 @@
+/***********************************FILA_1*********************/
 .rojo{
     background-color: red;
 }
@@ -8,4 +9,16 @@
 
 .rojo_blanco_2{
     background-color: red;
+}
+/***********************************FILA_2*********************/
+
+.azul{
+    background-color: aqua;
+}
+.amarillo_blanco_2{
+    background-color: yellow;
+}
+
+.amarillo{
+    background-color: yellow;
 }
