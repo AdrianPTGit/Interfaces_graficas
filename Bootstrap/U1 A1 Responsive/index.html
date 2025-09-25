@@ -1,49 +1,66 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilo.css">
-        <title>U1 A1 Responsive</title>
-    </head>
-    <body>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-xl-3 negro"><p>HEADER</p></div>
-                <div class="col-12  col-sm-3 col-xl-9 rojo"><p>MENU</p></div>
-            </div>
-<!--col- → móviles (pantallas <576px).
-col-sm- → tablet pequeño (≥576px).
-col-md- → tablet mediano (≥768px).
-col-lg- → escritorio (≥992px).
-col-xl- → pantallas grandes (≥1200px).
-col-xxl- → pantallas muy grandes (≥1400px).-->
-            <div class="row">
-                <div class="col-12 col-sm-12 col-xl-12 azul">HERO</div>
-            </div>
 
-            <div class="row">
-                <div class="col-12 col-sm-6 col-xl-6 azul_oscuro">MAIN</div>
-                <div class="col-12 col-sm-3 col-xl-3 verde_claro">IMAGE</div>
-                        <div class="col-12 col-sm-3 col-xl-3 verde_oscuro">EXTRA</div>
-                <!--<div class="col-12 col-sm-2 blanco"></div>   offset-sm-3--> 
-                    <!--<div class="row-cols-2">row-cols-2
-                        <div class="col-12 col-sm-3  verde_claro">IMAGE</div>
-                        <div class="col-12 col-sm-3  verde_oscuro">EXTRA</div>
-                    </div>-->
-            </div>
-            <div class="row">
-                <div class="col-a2 col-sm-12 col-xl-12 amarillo">BANNER</div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>U1 A1 Responsive</title>
+</head>
+
+<body>
+
+    <!--tamano pantalla col y col-xl-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <div class="container text-center d-sm-none d-xl-block"><!--d-none d-sm-block-->
+    <div class="row">
+        <div class="col-12 col-md-3 col-xl-3 negro">
+            <p>HEADER</p>
+        </div>
+        <div class="col-12 col-md-9  col-xl-9 rojo">
+            <p>MENU</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-xl-12 azul">HERO</div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6 col-xl-6 azul_oscuro">MAIN</div>
+        <div class="col-12 col-md-3 col-xl-3 verde_claro">IMAGE</div>
+        <div class="col-12 col-md-3 col-xl-3 verde_oscuro">EXTRA</div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-xl-12 amarillo">BANNER</div>
+    </div>
+</div>
+
+    <!--tamano pantalla col-sm  -->
+
+     
+    <div class="container  d-none d-xl-none d-sm-block">
+        <div class="row">
+            <div class="col-12 negro">HEADER</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-2 rojo_2">MENU</div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12 azul_oscuro_2">MAIN</div>
+                    <div class="col-12 amarillo">BANNER</div>
+                    <div class="col-7 verde_oscuro_2">EXTRA</div>
+                    <div class="col-5 verde_claro_2">IMAGE</div>
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
